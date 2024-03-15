@@ -1,5 +1,12 @@
-p, h1, h2, h3, h4 {
+p, h1, h2, h3, h4, h5, a {
   font-family: monospace;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(219, 193, 46);
+  border-style: dotted;
 }
 
 body {
@@ -26,4 +33,14 @@ button {
   border-radius: 12px;
   border: none;
   cursor: pointer;
+}
+
+#navbar {
+  overflow: hidden;
+  z-index: 99;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0.25em;
 }
