@@ -5,19 +5,24 @@ p, h1, h2, h3, h4, h5, a {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: rgb(219, 193, 46);
-  border-style: dotted;
+  color: #1a1a1a;
 }
 
 body {
-  padding: 25px;
   background-color: #ebebeb;
   color: #1a1a1a;
   font-size: 25px;
+  margin: auto;
+  padding: 3em;
+  max-width: 64em;
 }
   
 .dark-mode {
   background-color: #1a1a1a;
+  color: #ebebeb;
+}
+
+.dark-mode a {
   color: #ebebeb;
 }
   
@@ -43,4 +48,5 @@ button {
   left: 0;
   width: 100%;
   border-radius: 0.25em;
+  border-style: dotted;
 }
