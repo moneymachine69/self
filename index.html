@@ -13,11 +13,21 @@
 
 <body>
     <div id="navbar">
+        <button id="dark-mode-toggle" onclick="toggleDM()">🔆/🔅</button>
         <a href="/index.html">test</a>
         <a href="#">test</a>
     </div>
-    <button id="dark-mode-toggle" onclick="toggleDM()">🔆/🔅</button>
+
+    <div>
+        <li>
+            <ul>test</ul>
+            <ul>test</ul>
+        </li>
+    </div>
+
     <script>
+        // const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        // console.log(tz);
         function toggleDM(){
             var body = document.body;
             body.classList.toggle("dark-mode");

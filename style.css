@@ -1,20 +1,19 @@
-p, h1, h2, h3, h4, h5, a {
-  font-family: monospace;
-}
-
 a {
   font-weight: bold;
   text-decoration: none;
   color: #1a1a1a;
 }
 
+ul, li{
+  list-style: none;
+}
+
 body {
+  padding: 1em;
   background-color: #ebebeb;
   color: #1a1a1a;
   font-size: 25px;
-  margin: auto;
-  padding: 3em;
-  max-width: 64em;
+  font-family: monospace;
 }
   
 .dark-mode {
@@ -30,6 +29,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 10px;
+  font-family: monospace;
 }
   
 button {
