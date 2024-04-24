@@ -15,6 +15,9 @@ body {
   font-size: 25px;
   font-family: monospace;
 }
+body div {
+  padding: 1em;
+}
   
 .dark-mode {
   background-color: #1a1a1a;
