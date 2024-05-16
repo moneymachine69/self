@@ -15,9 +15,6 @@ body {
   font-size: 25px;
   font-family: monospace;
 }
-body div {
-  padding: 1em;
-}
   
 .dark-mode {
   background-color: #1a1a1a;
@@ -54,4 +51,9 @@ button {
   width: 100%;
   border-radius: 0.25em;
   border-style: dotted;
+  padding: 0.5em;
+}
+
+.menubar{
+  display: flex;
 }
