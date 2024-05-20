@@ -52,13 +52,11 @@ button {
   width: 100%;
   border-radius: 0.25em;
   border-style: dotted;
-<<<<<<< Updated upstream
   padding: 0.5em;
 }
 
 .menubar{
   display: flex;
-=======
   height: inherit;
 }
 
@@ -86,5 +84,4 @@ ul, li {
 
 .imgdiv {
   justify-content: center;
->>>>>>> Stashed changes
 }
