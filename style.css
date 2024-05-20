@@ -44,16 +44,47 @@ button {
 
 #navbar {
   overflow: hidden;
+  display:block;
   z-index: 99;
   position: relative;
-  top: 0;
+  top: 0em;
   left: 0.5em;
   width: 100%;
   border-radius: 0.25em;
   border-style: dotted;
+<<<<<<< Updated upstream
   padding: 0.5em;
 }
 
 .menubar{
   display: flex;
+=======
+  height: inherit;
+}
+
+#navbar a{
+  text-align: center;
+}
+
+.mainpage {
+  display: flex;
+  width: 100%;
+  position: static;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+.mainpage img{
+  max-width: 400px;
+  max-height: 100%;
+}
+
+.imgdiv {
+  justify-content: center;
+>>>>>>> Stashed changes
 }

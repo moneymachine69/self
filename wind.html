@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>emrys merlin</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <h3>emrys merlin brandt</h3>
+    <div style="display: flex;">
+        <button id="dark-mode-toggle" onclick="toggleDM()">🔆/🔅</button>
+        <div id="navbar" >
+            <a href="/index.html">home</a>
+            <a href="/self.html">self</a>
+            <a href="/blog.html">blog</a>
+        </div>
+    </div>
+</head>
+
+<body>
+    <div>
+        <p>
+           <b style="color:rgb(0, 0, 255)">Which Way the Wind Blows</b> refers to a body of work which includes research, writing, code, and a kinetic sculpture. 
+           The work explores how the wind, as an aspect of the weather, acts as a metaphor for embodiment of and resistance to imperial visuality. The wind carried the slave ships over the Atlantic, but the wind can change, and carries with it possibility. 
+           You can find digital didactic material <a href="https://moneymachine69.github.io/windvane-didactic/">here</a>.
+        </p>
+        <p>
+            The weathervane is updated in real time with the current wind direction of specific historic and contemporary sites of US military occupation.<br>
+            Every minute, the weather vane shifts, cycling through a shortlist of these places. The wall monitor is updated synchronously.
+        </p>
+        <p>
+            This work was presented on, and the digital didactic material exhibited, as part of the <a href="https://library.temple.edu/events/1690">2024 Electronics Faire at Temple University</a>.
+        </p>
+    </div>
+    <div class="imgdiv">
+        <img src="assets/wind/wind_big_2.png">
+        <img src="assets/wind/wind_big_0.png">
+        <img src="assets/wind/wind_big_1.png">
+    </div>
+
+
+    <script>
+        // const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        // console.log(tz);
+        function toggleDM(){
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
