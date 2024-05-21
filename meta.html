@@ -16,26 +16,14 @@
     <div class = "menubar">
         <button id="dark-mode-toggle" onclick="toggleDM()">🔆/🔅</button>
         <div id="navbar" >
+            <a href="/index.html">home</a>
             <a href="/self.html">self</a>
             <a href="/blog.html">blog</a>
-            <a href="/meta.html">meta</a>
         </div>
     </div>
-    <div class="mainpage">
-        <li>
-            <ul><a href="/wind.html"><img src="assets/wind/sq_weathervane_1.png"></ul></a>
-            <ul><a href="#"><img src="assets/greenline/sq_greenline.png"></ul></a>
-        </li>
+    <div>
+        <p>
+            This webpage is hosted {}.
+        </p>
     </div>
-
-    <script>
-        // const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        // console.log(tz);
-        function toggleDM(){
-            var body = document.body;
-            body.classList.toggle("dark-mode");
-        }
-    </script>
 </body>
-
-</html>
