@@ -30,6 +30,12 @@
     </div>
 
     <script>
+        const time = new Date().getHours();
+        console.log(time);
+        if (!(time < 20 && time > 8)){
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
         function toggleDM(){
             var body = document.body;
             body.classList.toggle("dark-mode");
