@@ -1,34 +1,32 @@
-if (!localStorage.getItem('visited')) {
+// dark mode based on time
+const time = new Date().getHours();
 
-    console.log("first time i see");
-    
-    localStorage.setItem('visited', 'true');
+if (!(time < 20 && time > 8)) {
+  sessionStorage.setItem("dm", "on");
+  document.body.classList.add("dark-mode");
+} else {
+  sessionStorage.setItem("dm", "off");
+  document.body.classList.remove("dark-mode");
+}
 
-    const time = new Date().getHours();
+// dark mode local storage
 
-    if (!(time < 20 && time > 8)){
-        sessionStorage.setItem('dm','true');
-        var body = document.body;
-        body.classList.toggle("dark-mode");
-    }else{
-        sessionStorage.setItem('dm','false');
+if (!localStorage.getItem("dm")) {
+    localStorage.setItem("dm", "off");
+  } else {
+    // check if dark mode is on and then add the dark-mode class
+    if (localStorage.getItem("dm") == "on") {
+      document.body.classList.add("dark-mode");
     }
 }
-var dmBool = localStorage.getItem('dm');
-if(dmBool == 'true'){
-    var body = document.body;
-    body.classList.toggle("dark-mode");
-    localStorage.setItem('dm','false');
-}
 
-function toggleDM(){
-    if (dmBool == 'true'){
-        var body = document.body;
-        body.classList.toggle("dark-mode");
-        localStorage.setItem('dm','false');
-    }else{
-        var body = document.body;
-        body.classList.toggle("dark-mode");
-        localStorage.setItem('dm','true');
+//button
+function toggleDM() {
+    if (localStorage.getItem("dm") == "off") {
+      document.body.classList.add("dark-mode");
+      localStorage.setItem("dm", "on");
+    } else {
+      document.body.classList.remove("dark-mode");
+      localStorage.setItem("dm", "off");
     }
-}
+  }
