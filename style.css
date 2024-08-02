@@ -68,6 +68,12 @@ button {
   overflow: hidden;
 }
 
+.homeimg {
+  border-radius: 0.25em;
+  border-style:double;
+  padding: 5px;
+}
+
 ul, li {
   list-style: none;
   display: inline;
