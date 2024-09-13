@@ -4,6 +4,19 @@ a {
   color: #1a1a1a;
 }
 
+h3 {
+  animation-name: headeranim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes headeranim {
+  0% {color:cornflowerblue}
+  25%{color: lightcoral;}
+  50%{color:yellowgreen;}
+  100%{color: cornflowerblue;}
+}
+
 body {
   padding: 1em;
   background-color: #ebe3e0;
