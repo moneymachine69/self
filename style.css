@@ -14,6 +14,7 @@ h3 {
   0% {color:cornflowerblue}
   25%{color: lightcoral;}
   50%{color:yellowgreen;}
+  75%{color:rgb(187, 160, 221)}
   100%{color: cornflowerblue;}
 }
 
