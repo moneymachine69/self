@@ -68,10 +68,17 @@ button {
   overflow: hidden;
 }
 
-.homeimg {
-  border-radius: 0.25em;
-  border-style:double;
+.mainpage a {
+  /* border-radius: 0.25em;
+  border-style:double; */
   padding: 5px;
+  width: 400px;
+  /* height: 400px; */
+  text-align: center;
+}
+
+.homeimg:hover{
+  opacity: 50%;
 }
 
 ul, li {
